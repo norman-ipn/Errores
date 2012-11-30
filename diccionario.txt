@@ -1,0 +1,25 @@
+El tío Petros y la conjetura de Goldbach a pesar de su título, que engaña con sinceridad, es realmente 
+la historia del sobrino, que crece fascinado por la figura de un enigmático anciano al que su familia 
+de comerciantes considera una oveja negra a pesar de su indiscutible y brillante pasado como matemático. 
+Pero tío Petros no es ahora más que un anciano que vive recluido en una casa de campo, rodeado de libros 
+de matemática que ya no lee, y enfrascado en los problemas del ajedrez. Un poco de rebeldía juvenil se 
+combina en el sobrino con la fascinación por el hombre hasta hacerle desear convertirse también en matemático.
+Pero su tío le ofrece una prueba, demostrar una simple proposición matemática. Si lo consigue, habrá probado
+tener talento para esa disciplina. Pero un verano de trabajo no sirve de nada, y el joven se ve obligado a
+firmar un documento en el que asegura que jamás estudiará matemática y parte a América para realizar sus estudios universitarios. 
+
+El problema planteado por el anciano es muy simple: demostrar que todo número par superior a dos es la suma
+de dos primos. Expresable en pocas palabras, es sin embargo uno de los grandes problemas no resueltos de la matemática,
+la conjetura de Goldbach. Cuando su compañero de cuarto llama la atención del joven al hecho de que su tío le había
+planteado como prueba un famoso problema no resuelto, éste estalla en cólera y decide enfrentarse al anciano. 
+
+La narración cambia después a la tercera persona, hasta ese momento el sobrino narraba en primera, y asistimos a los
+esfuerzos del joven y brillante matemático Petros Papachristos por resolver la conjetura de Goldbach y su fracaso. Pero
+la narración es misteriosa y no deja clara del todo los motivos y las razones del fracaso. ¿Qué sucedió? ¿Qué hizo
+realmente que Petros abandonase la búsqueda de la preciada demostración de la famosa conjetura, demostración que le
+hubiese garantizado la inmortalidad en el panteón de los grandes matemáticos? 
+
+Continúa así una aventura fascinante que en menos de doscientas páginas entremezcla personajes inventados con
+grandes matemáticos de principios de siglos (como Hardy, Ramanujan, Turing y Gödel). Es evidente en su lectura que
+Apostolos Doxiadis podría haber escrito un libro de historia, pero al decidir escribir una novela ha construido un
+ensayo sobre el placer y los peligros de la matemática.
