@@ -12,7 +12,11 @@ LIBRERIAS2      [a-z]*"."h
 VARIABLES       void|int|float|boolean|char|string|array|long|short|byte
 GRUPOS          "{"|"}"|"("|")"|"["|"]"|"<"|">"
 COMENTARIOS     "/*"[a-z|A-Z|" "|0-9|\n]*"*/"|"//"[a-z|A-Z|" "|0-9]*
-
+RESERVADAS      printf|exit|return|scanf|main|NULL|break|initscr|clear|move|refresh|getch|endwin|struct
+CICLOS          if|else|for|do|while|switch|case
+SIMBOLOS        ";"|"="|"+"|"-"|"_"|":"|","|"%"|"!"|"¡"|"?"|"¿"|"*"|"/"|"@"|"$"|"&"
+COMILLAS        \"
+COMPARACIONES   "=="|"&&"|"||"|"!="
 
 %%
 
@@ -26,7 +30,17 @@ COMENTARIOS     "/*"[a-z|A-Z|" "|0-9|\n]*"*/"|"//"[a-z|A-Z|" "|0-9]*
 
 {COMENTARIOS}+  total_palabras(pFile,num);
 
+{RESERVADAS}+   total_palabras(pFile,num);
 
+{CICLOS}+       total_palabras(pFile,num);
+
+{PALABRAS}+     total_palabras(pFile,num);
+
+{SIMBOLOS}+     total_palabras(pFile,num);
+
+{COMILLAS}+     total_palabras(pFile,num);
+
+{COMPARACIONES}+ total_palabras(pFile,num);
 
 
 
