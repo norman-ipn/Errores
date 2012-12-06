@@ -47,14 +47,22 @@ int distancia_levenstein(char s[],char t[])
 
    void llenar_distancias(FILE *pFile,int num [], char s[],char **pal)
    {
-     char  palabra[50];
+     char palabra[50];
+     char *pf;
      int n=0;
      pFile = fopen ("diccionario.txt","r");
 
-     while (fgets(palabra,50,pFile)!= NULL) { //usaba fscanf, ya que es el que siempre he usado en windows, al correrlo en linux, me marcaba error por lo cual recurri a usar fgets, pero como tengo entendido fgets me lee tambien el caracter de salto de linea, por lo cual gracias a ese caracter la distancia de levenstein no se cumple, ya que siempre dara un excedente de +2, no se me ocurre como solucionarlo
+     while (fgets(palabra,50,pFile)!= NULL) { 
+        pf=strchr(palabra,'\n');//busca la posicion del salto de linea 
+	if(pf!=NULL)
+        {
+		*pf='\0';//si la encuentra la cambia x un fin de cadena
+        }
         num[n]=distancia_levenstein(s,palabra);
+	num[n]=num[n]-1;
         pal[n]=palabra;     //no se por que no guarda la palabra en el lugar del apuntador, lo imprime dentro de esta funcion solamente, que tengo que hacer para que se mantenga el valor
-        printf("%i -- %s ---%i\n",n,palabra,num[n]);
+	printf("id: %i Distancia: %i ",n,num[n]);
+	printf("palabra: %s\n",palabra);
         n++;
      }
      fclose(pFile);
@@ -101,5 +109,7 @@ int distancia_levenstein(char s[],char t[])
      }
      return;
    }
+
+
   
 
